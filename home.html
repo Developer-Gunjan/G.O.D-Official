@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/god-file-css-home.css">
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="title">
+            <h2 id="title">G.O.D</h2>
+        </div>
+        <div class="itemcontainer">
+            <ul class="navitems">
+              <li class="navcontend"><button class="button" id="help" onmouseover="navchangeover('help')"
+                onmouseout="navchangeout('help')">Help</button></li>
+              <li class="navcontent"><button id="home" class="button" onmouseover="navchangeover('home')"
+                onmouseout="navchangeout('home')" onclick="Unlink()">Unlink</button></li>
+              <li class="navcontent"><button id="about" class="button" onmouseover="navchangeover('about')"
+                onmouseout="navchangeout('about')">About</button></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Script -->
+    <div id="5" class="5">
+        <br>
+        <details>
+            <summary>Verify</summary><input type="text" value="" id="cpy"> <button class="copy" onclick="Copy()"><kbd
+                    style="color:black;" id="vfy">Verify</kbd></button><br><br>
+            <span>
+                <p>by clicking "Verify" you are agreeing to our
+                <h5 class="dd">Terms and Conditions</h5>
+                </p>
+            </span> <br><br>
+        </details>
+        <br>
+        <button onclick="dashboard()" id="dsbrd">DashBoard</button>
+        <br> <br>
+        <span id="DashboardProperties1" class="dshbrdpr"><kbd><b>Name: </b></kbd> <kbd><u id="nme"></u></kbd></span><br>
+        <br>
+        <span id="DashboardProperties2" class="dshbrdpr"><kbd><b>Doom Id: </b> </kbd> <kbd><u id="dmm"></u></kbd></span><br>
+        <br>
+        <span id="DashboardProperties3" class="dshbrdpr"><kbd><b>Galaxy Id: </b></kbd> <kbd><u id="glx"></u></kbd></span><br>
+        <br>
+        <span id="DashboardProperties4" class="dshbrdpr"><kbd><b>Date Of Birth: </b></kbd> <kbd><u id="dob"></u></kbd></span><br>
+    </div>
+    <script src="/god-file-html-home.js"></script>
+</body>
+</html>

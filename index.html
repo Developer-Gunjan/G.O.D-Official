@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.O.D</title>
+    <link rel="stylesheet" href="/god-file-css-index.css">
+</head>
+
+<body id="body">
+    <div class="maincontainernv">
+        <div class="titlenv">
+            <h2 id="title">G.O.D</h2>
+        </div>
+        <div class="itemcontainer">
+            <ul class="navitems">
+                <li class="navcontend"><button class="button" id="help" onmouseover="navchangeover('help')"
+                        onmouseout="navchangeout('help')">Help</button></li>
+                <li class="navcontent"><button id="home" class="button" onmouseover="navchangeover('home')"
+                        onmouseout="navchangeout('home')" onclick="Unlink()">Unlink</button></li>
+                <li class="navcontent"><button id="about" class="button" onmouseover="navchangeover('about')"
+                        onmouseout="navchangeout('about')">About</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="maincontainer">
+        <div class="titlecontainer">
+            <br>
+            <h1 class="title">Sign In</h1>
+        </div><br>
+        <div class="formcontainer">
+            <input type="text" class="input" id="uname" placeholder="Enter Username"> <br>
+            <br>
+            <input type="password" class="input" id="ipass" placeholder="Enter Password"><br>
+            <br>
+            <input type="text" class="input" id="iD" placeholder="Enter Doom Id"> <br>
+            <br>
+            <input type="text" class="input" id="iG" placeholder="Enter Galaxy Id"><br>
+            <br>
+        </div>
+        <div class="submit">
+            <button class="submit_button" onclick="Link()">
+                Sign In
+            </button>
+        </div>
+    </div>
+    <script src="/god-file-html-index.js"></script>
+</body>
+
+</html>

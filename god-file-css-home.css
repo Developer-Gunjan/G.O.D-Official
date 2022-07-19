@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.maincontainer {
+    background-color: cornflowerblue;
+    height: 9vh;
+}
+
+.itemcontainer {
+    display: inline-block;
+    width: 90vw;
+}
+
+.title {
+    display: inline-block;
+}
+
+.navcontent {
+
+    list-style: none;
+    margin-right: 5vw;
+}
+
+.navcontend {
+    list-style: none;
+}
+
+.navitems {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.button {
+    background-color: cornflowerblue;
+    border: 0px;
+    height: 9vh;
+    text-align: center;
+
+}
+
+#title {
+    padding-left: 1vw;
+    background-color: cornflowerblue;
+    width: 5vw;
+    height: 6vh;
+    text-align: center;
+}
+
+.dd {
+color: blue;
+}
+
+#DashboardProperties1 {
+visibility: hidden;
+}
+
+#DashboardProperties2 {
+visibility: hidden;
+}
+
+#DashboardProperties3 {
+visibility: hidden;
+}
+
+#DashboardProperties4 {
+visibility: hidden;
+}
+
+.copy {
+background-color: rgb(184, 221, 253);
+border-color: aqua;
+border-radius: 10px;
+width: 70px;
+height: 34px;
+margin: 0px 5px 0px 5px;
+}
+
+#dsbrd {
+background-color: rgb(255, 94, 94);
+border: 2px solid red;
+border-radius: 6px;
+margin: 1px 5px 1px 5px;
+height: 30px;
+}
